@@ -1,0 +1,26 @@
+{
+        "ito_1" : {
+                "user":"root",
+                "password":"scrs",
+                "host":"130.4.170.146"
+        },
+        "ito_2" : {
+                "user":"root",
+                "password":"scrs",
+                "host":"130.4.170.147"
+        },
+        "ito_3" : {
+                "user":"root",
+                "password":"scrs",
+                "host":"130.4.170.148"
+        },
+        "ito_jh" : {
+                "user":"root",
+                "password":"",
+                "host":"localhost"
+        },
+        "homedir" : "C:\\Users\\jh5083\\Projects\\SCRS\\Data" ,
+        "rawdir" : "C:\\Users\\jh5083\\Projects\\SCRS\\Data\\Raw",
+        "fixdir" : "C:\\Users\\jh5083\\Projects\\SCRS\\Data\\Fixed",
+        "separ" : "\\"
+}

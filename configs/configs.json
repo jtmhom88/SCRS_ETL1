@@ -1,0 +1,176 @@
+{
+        "ito_1" : {
+                "user":"root",
+                "password":"scrs",
+                "host":"130.4.170.146"
+        },
+        "ito_2" : {
+                "user":"root",
+                "password":"scrs",
+                "host":"130.4.170.147"
+        },
+        "ito_3" : {
+                "user":"root",
+                "password":"scrs",
+                "host":"130.4.170.148"
+        },
+        "ito_localhost" : {
+                "user":"root",
+                "password":"scrs",
+                "host":"localhost"
+        },
+        "ito_jh" : {
+                "user":"root",
+                "password":"",
+                "host":"localhost"
+        },
+        "fte" : {
+                "pattern" : "(.*)(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{8})*(.*)",
+                "template" : "fte_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "1"
+        },
+        "cms_history_req" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "cms_history_req_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "5"
+        },
+        "cms_history_req_incr" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "cms_history_req_incr_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "18"
+        },
+        "cms_cp" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "cms_cp_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "3"
+        },
+        "cms_cp_incr" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "cms_cp_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "16"
+        },
+        "cms_req" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "cms_req_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "8"
+        },
+        "cms_req_incr" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "cms_req_incr_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "20"
+        },
+        "cms_agg" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "cms_agg_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "2"
+        },
+        "cms_agg_incr" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "cms_agg_incr_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "15"
+        },
+        "cms_sc_price" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "cms_sc_price_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "14"
+        },
+        "cms_sc_price_incr" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "cms_sc_price_incr_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "26"
+        },
+        "cms_history_sc" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "cms_history_sc_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "6"
+        },
+        "cms_history_sc_incr" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "cms_history_sc_incr_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "19"
+        },
+        "cms_sc" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "cms_sc_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "9"
+        },
+        "cms_sc_incr" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "cms_sc_incr_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "22"
+        },
+        "cdr" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "cdr_%(year)s%(month)s_fixed.csv",
+                "dsid" : "28"
+        },
+        "omg" : {
+                "pattern" : "^([\\w]+).(\\d?\\d?)(\\d{2})(\\d{2})(\\d{2}).(done)$",
+                "template" : "omg_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "33"
+        },
+        "eag_mms" : {
+                "pattern" : "^([^\\d]+)(\\d{2})(\\d{2})(\\d{2}).(done)$",
+                "template" : "eag_mms_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "31"
+        },
+        "eag_sms" : {
+                "pattern" : "^([^\\d]+)(\\d{2})(\\d{2})(\\d{2}).(done)$",
+                "template" : "eag_sms_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "32"
+        },
+        "tlg" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "tlg_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "35"
+        },
+        "csca_approved" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "csca_approved_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "29"
+        },
+        "csca_pending" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\.csv)$",
+                "template" : "csca_pending_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "30"
+        },
+        "apigee" : {
+                "pattern" : "^([\\w]+)_(\\d{2})(\\d{2})(\\d{2}).(csv)$",
+                "template" : "apigee_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "27"
+        },
+        "ngeag_mms" : {
+                "pattern" : "^([^\\d]+)(\\d{2})(\\d{2})(\\d{2}).(done)$",
+                "template" : "ngeag_mms_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "36"
+        },
+        "ngeag_sms" : {
+                "pattern" : "^([^\\d]+)(\\d{2})(\\d{2})(\\d{2}).(done)$",
+                "template" : "ngeag_sms_%(year)s%(month)s%(day)s_fixed.csv",
+                "dsid" : "37"
+        },
+        "cms_incr" : {
+                "pattern" : "^(\\w+)(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\d{2})(\\.csv)$"
+        },
+        "csca" : {
+                "pattern" : "^(\\w+)(\\.csv)$"
+        },
+        "eag" : {
+                "pattern" : "^([^\\d]+)(\\d{2})(\\d{2})(\\d{2}).(txt|done)$"
+        },
+        "ngeag" : {
+                "pattern" : "^([^\\d]+)(\\d{2})(\\d{2})(\\d{2}).(txt|done)$"
+        },
+        "omd" : "scrs_omd" ,
+        "ods" : "scrs_ods" ,
+        "ods_stg" : "scrs_ods_stg" ,
+        "ds_names" : ["apigee","cdr","cms_agg","cms_agg_incr", "cms_cp","cms_cp_incr","cms_dcm_report","cms_dcm_report_incr"
+        ,"cms_history_req","cms_history_req_incr","cms_history_sc","cms_history_sc_incr"
+        ,"cms_qpass","cms_req","cms_req_incr","cms_sc","cms_sc_bind","cms_sc_bind_incr","cms_sc_incr","cms_sc_isg_mms","cms_sc_isg_mms_incr"
+        ,"cms_sc_isg_sms","cms_sc_isg_sms_incr","cms_sc_omg_sms","cms_sc_omg_sms_incr","cms_sc_price","cms_sc_price_incr"
+        ,"csca_approved","csca_pending","eag_mms","eag_sms","fte","omg","pnr","tlg","ngeag_mms","ngeag_sms"
+        ],
+        "landing_zone" : "/opt/app/workload/FILES/LANDING_ZONE",
+        "expectedentries" : "13",
+        "separ" : "/"
+}
